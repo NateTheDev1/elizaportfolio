@@ -8,9 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "framer-motion": "^2.7.7",
+    "less": "^3.12.2",
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-fade-in": "^1.1.0",
+    "styled-components": "^5.2.0"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^1.11.1"
