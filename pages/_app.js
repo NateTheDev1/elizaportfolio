@@ -4,6 +4,7 @@ import Home from "../components/Home";
 
 import { Container } from "../components/Index.styled";
 import LoadIn from "../components/LoadIn";
+import FadeIn from "react-fade-in";
 
 import About from "./_about";
 
@@ -22,6 +23,7 @@ const App = () => {
           </Head>
           <Home />
         </Container>
+
         <About />
       </LoadIn>
       <style global jsx>{`

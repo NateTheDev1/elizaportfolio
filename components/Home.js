@@ -12,7 +12,7 @@ const Home = React.memo((_) => {
 
         <Typer />
 
-        <DownButton location="#about" />
+        <DownButton location="#about-container" />
 
         <p className="cta">About Me</p>
       </FadeIn>

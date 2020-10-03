@@ -55,7 +55,7 @@ export const AboutContainer = styled.div`
   min-width: 500px;
   margin: 0 auto;
   margin-bottom: 50px;
-  padding: 2%;
+  padding: 5%;
   width: 100%;
   padding-bottom: 100px;
   border-radius: 25px;
@@ -65,6 +65,7 @@ export const AboutContainer = styled.div`
   justify-content: space-around;
 
   background: #282828;
+
   color: white;
   box-shadow: 18px 10px 41px -1px rgba(0, 0, 0, 0.75);
 
@@ -140,12 +141,27 @@ export const ProjectsContainer = styled.div`
   border-radius: 25px;
 
   font-size: 100%;
-  display: flex;
-  justify-content: space-around;
 
-  background: #282828;
-  color: white;
+  margin-bottom: 50px;
+  padding: 5%;
+
   box-shadow: 18px 10px 41px -1px rgba(0, 0, 0, 0.75);
+
+  .right {
+    display: flex;
+    flex-direction: column;
+
+    #projects {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 50px;
+    }
+
+    .divider {
+      width: 50%;
+      margin-left: 0;
+    }
+  }
 `;
 
 import React from "react";
