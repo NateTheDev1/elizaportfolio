@@ -150,6 +150,8 @@ export const ProjectsContainer = styled.div`
 
 import React from "react";
 
-export default Sample = () => {
-  return <></>;
+const Sample = () => {
+  return <>Hello</>;
 };
+
+export default Sample;
