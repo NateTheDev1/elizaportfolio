@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
-import { AboutContainer } from "./components/Index.styled";
-import DownButton from "./components/DownButton";
+import { AboutContainer } from "../components/Index.styled";
+import DownButton from "../components/DownButton";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 

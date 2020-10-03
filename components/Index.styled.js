@@ -147,3 +147,9 @@ export const ProjectsContainer = styled.div`
   color: white;
   box-shadow: 18px 10px 41px -1px rgba(0, 0, 0, 0.75);
 `;
+
+import React from "react";
+
+export default Sample = () => {
+  return <></>;
+};

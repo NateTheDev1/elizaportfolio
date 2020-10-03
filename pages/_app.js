@@ -1,9 +1,9 @@
 import Head from "next/head";
 import React from "react";
-import Home from "./components/Home";
+import Home from "../components/Home";
 
-import { Container } from "./components/Index.styled";
-import LoadIn from "./components/LoadIn";
+import { Container } from "../components/Index.styled";
+import LoadIn from "../components/LoadIn";
 
 import About from "./_about";
 
