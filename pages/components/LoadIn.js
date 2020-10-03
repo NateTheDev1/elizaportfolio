@@ -14,7 +14,7 @@ const LoadIn = ({ children }) => {
       variants={variants}
       style={{ margin: 0, padding: 0, width: "100%" }}
     >
-      {children}
+      {children}{" "}
     </motion.div>
   );
 };

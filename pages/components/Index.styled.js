@@ -10,6 +10,7 @@ export const Container = styled.div`
   margin: 0 auto;
 
   width: 100%;
+  height: 100vh;
   font-size: 100%;
 
   .home {
@@ -30,9 +31,17 @@ export const Container = styled.div`
       font-weight: 600;
     }
 
-    p {
+    .sub {
       font-size: 1.2rem;
       font-size: 600;
+      letter-spacing: 5px;
+    }
+
+    .cta {
+      margin-top: 25px;
+      opacity: 0.5;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
   }
 `;
