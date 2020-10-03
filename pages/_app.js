@@ -11,8 +11,6 @@ import About from "./_about";
 import Typer from "./components/Typer";
 
 const App = () => {
-  const [uiState, setUIState] = useState({ about: false });
-
   return (
     <>
       <LoadIn>
@@ -30,7 +28,6 @@ const App = () => {
 
               <a href="#about">
                 <motion.button
-                  onClick={() => setUIState({ ...uiState, about: true })}
                   whileHover={{ scale: 1.5 }}
                   whileTap={{ scale: 0.9 }}
                   transition={{ duration: 0.3 }}
@@ -52,7 +49,7 @@ const App = () => {
             </FadeIn>
           </div>
         </Container>
-        {uiState.about && <About />}
+        <About />
       </LoadIn>
       <style global jsx>{`
         html {
