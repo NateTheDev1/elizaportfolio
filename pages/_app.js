@@ -10,6 +10,10 @@ import About from "./_about";
 const App = () => {
   return (
     <>
+      <Head>
+        <title>Eliza Christopher</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <LoadIn>
         <Container>
           <Head>

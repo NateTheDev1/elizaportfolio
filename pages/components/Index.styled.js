@@ -66,6 +66,7 @@ export const AboutContainer = styled.div`
 
   background: #282828;
   color: white;
+  box-shadow: 18px 10px 41px -1px rgba(0, 0, 0, 0.75);
 
   .left {
     width: 55%;
@@ -104,6 +105,17 @@ export const AboutContainer = styled.div`
     .down-cta {
       display: flex;
       align-items: baseline;
+      p {
+        transition: 0.2s;
+      }
+    }
+
+    .down-cta:hover {
+      color: white;
+
+      p {
+        opacity: 1;
+      }
     }
   }
 
@@ -111,4 +123,27 @@ export const AboutContainer = styled.div`
     width: 30%;
     border-radius: 15px;
   }
+`;
+
+export const ProjectsContainer = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  max-width: 1440px;
+  min-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 2%;
+  width: 100%;
+  padding-bottom: 100px;
+  border-radius: 25px;
+
+  font-size: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  background: #282828;
+  color: white;
+  box-shadow: 18px 10px 41px -1px rgba(0, 0, 0, 0.75);
 `;

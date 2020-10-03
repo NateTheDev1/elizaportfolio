@@ -6,10 +6,6 @@ import App from "./_app";
 const Index = () => {
   return (
     <>
-      <Head>
-        <title>Eliza Christopher</title>
-        <link rel="icon" href="/favicon" />
-      </Head>
       <App />
     </>
   );
