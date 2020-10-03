@@ -45,3 +45,70 @@ export const Container = styled.div`
     }
   }
 `;
+
+export const AboutContainer = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  max-width: 1440px;
+  min-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 2%;
+  width: 100%;
+  padding-bottom: 100px;
+  border-radius: 25px;
+
+  font-size: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  background: #282828;
+  color: white;
+
+  .left {
+    width: 55%;
+
+    display: flex;
+    flex-direction: column;
+
+    #about {
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 50px;
+    }
+
+    .divider {
+      width: 500px;
+      margin-left: 0;
+    }
+
+    .about-sub {
+      font-weight: 400;
+      font-size: 1.2rem;
+      line-height: 50px;
+    }
+
+    .highlight {
+      color: #edcbcc;
+    }
+
+    .cta {
+      opacity: 0.7;
+      margin-left: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .down-cta {
+      display: flex;
+      align-items: baseline;
+    }
+  }
+
+  img {
+    width: 30%;
+    border-radius: 15px;
+  }
+`;
